@@ -3,41 +3,42 @@ Console application to manage garage,
 as part of "Object Oriented Programming with C# and .NET" course,
 given SRS and built from scratch.
 
-Final objective – Developing a computer software that “manages” a vehicle garage.
+# Final objective – Developing a computer software that “manages” a vehicle garage.
 The system will manage a garage that handles these five types of vehicles -
-• Fuel-Based Motorcycle
-2 tires with max air pressure of 30 (psi), Octane 95 (fuel), 7 liters fuel tank
-• Electric Motorcycle
-2 tires with max air pressure of 30 (psi), Max battery life – 1.2 hours
-• Fuel-Based Car
-4 tires with max air pressure of 32 (psi), Octane 96 fuel, 60 liter fuel tank
-• Electric Car
-4 tires with max air pressure of 32 (psi), Max battery life – 2.1 hours
-• Fuel-Based Truck
-16 tires with max air pressure of 28 (psi), Soler fuel, 120 liter fuel tank
+
+  • Fuel-Based Motorcycle
+    2 tires with max air pressure of 30 (psi), Octane 95 (fuel), 7 liters fuel tank
+  • Electric Motorcycle
+    2 tires with max air pressure of 30 (psi), Max battery life – 1.2 hours
+  • Fuel-Based Car
+    4 tires with max air pressure of 32 (psi), Octane 96 fuel, 60 liter fuel tank
+  • Electric Car
+    4 tires with max air pressure of 32 (psi), Max battery life – 2.1 hours
+  • Fuel-Based Truck
+    16 tires with max air pressure of 28 (psi), Soler fuel, 120 liter fuel tank
+    
 Every vehicle contains the following properties:
-• Model Name (String)
-• License Number (String)
-• Remaining Energy Percentage (Fuel/Battery) (float)
-• Wheels, with each wheel containing the following:
-o Manufacturer Name (String)
-o Current Air Pressure (float)
-o Max Air Pressure Recommended by the manufacturer’s (float)
-o Inflate Action (A method that receives how much more air to add to a
-wheel, and changes the air pressure while not crossing the max limit)
-• A motorcycle (Fuel/Electric), apart from the vehicle properties,
-also has the following properties:
-o License type – A, A1, AA, B
-o Engine Volume (int)
-Object Oriented Programing in .NET and C# Exercise 3
-2
-• A car (Fuel/Electric), apart from the vehicle properties, also has
-the following properties:
-o Color – Red, Blue, Black, Gray
-o Number of doors – 2, 3, 4, or 5
-• A truck, apart from the vehicle properties, also has the following properties:
-o Contains dangerous materials? (bool)
-o Volume of cargo (float)
+  • Model Name (String)
+  • License Number (String)
+  • Remaining Energy Percentage (Fuel/Battery) (float)
+  • Wheels, with each wheel containing the following:
+  o Manufacturer Name (String)
+  o Current Air Pressure (float)
+  o Max Air Pressure Recommended by the manufacturer’s (float)
+  o Inflate Action (A method that receives how much more air to add to wheel, and changes the air pressure while not crossing the max limit)
+
+  • A motorcycle (Fuel/Electric), apart from the vehicle properties, also has the following properties:
+   o License type – A, A1, AA, B
+   o Engine Volume (int)
+
+  • A car (Fuel/Electric), apart from the vehicle properties, also has the following properties:
+    o Color – Red, Blue, Black, Gray
+    o Number of doors – 2, 3, 4, or 5
+
+  • A truck, apart from the vehicle properties, also has the following properties:
+    o Contains dangerous materials? (bool)
+    o Volume of cargo (float)
+
 • Every fuel based vehicle contains the following properties and operations:
 o Fuel type – Soler, Octane 95, Octane 96, Octane 98
 o Current amount of fuel in liters (float)
