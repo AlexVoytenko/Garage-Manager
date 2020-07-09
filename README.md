@@ -31,16 +31,17 @@ Every vehicle contains the following properties:
   • License Number (String)
   • Remaining Energy Percentage (Fuel/Battery) (float)
   • Wheels, with each wheel containing the following:
-  o Manufacturer Name (String)
-  o Current Air Pressure (float)
-  o Max Air Pressure Recommended by the manufacturer’s (float)
-  o Inflate Action (A method that receives how much more air to add to wheel, and changes the air pressure while not crossing the max limit)
-
+    o Manufacturer Name (String)
+    o Current Air Pressure (float)
+    o Max Air Pressure Recommended by the manufacturer’s (float)
+    o Inflate Action (A method that receives how much more air to add to wheel, and changes the air pressure while not crossing the max limit)
+    
   • A motorcycle (Fuel/Electric), apart from the vehicle properties, also has the following properties:
-   o License type – A, A1, AA, B
-   o Engine Volume (int)
+    
+    License type – A, A1, AA, B , Engine Volume (int)
 
   • A car (Fuel/Electric), apart from the vehicle properties, also has the following properties:
+    
     o Color – Red, Blue, Black, Gray
     o Number of doors – 2, 3, 4, or 5
 
