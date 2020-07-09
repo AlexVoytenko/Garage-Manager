@@ -7,15 +7,24 @@ given SRS and built from scratch.
 The system will manage a garage that handles these five types of vehicles -
 
   • Fuel-Based Motorcycle
+  
     2 tires with max air pressure of 30 (psi), Octane 95 (fuel), 7 liters fuel tank
+  
   • Electric Motorcycle
-    2 tires with max air pressure of 30 (psi), Max battery life – 1.2 hours
+  
+  2 tires with max air pressure of 30 (psi), Max battery life – 1.2 hours
+  
   • Fuel-Based Car
-    4 tires with max air pressure of 32 (psi), Octane 96 fuel, 60 liter fuel tank
+  
+  4 tires with max air pressure of 32 (psi), Octane 96 fuel, 60 liter fuel tank
+  
   • Electric Car
-    4 tires with max air pressure of 32 (psi), Max battery life – 2.1 hours
+  
+  4 tires with max air pressure of 32 (psi), Max battery life – 2.1 hours
+  
   • Fuel-Based Truck
-    16 tires with max air pressure of 28 (psi), Soler fuel, 120 liter fuel tank
+  
+  16 tires with max air pressure of 28 (psi), Soler fuel, 120 liter fuel tank
     
 Every vehicle contains the following properties:
   • Model Name (String)
